@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<TexGenModel version="3.11.0">
+    <Textile name="Sample" YoungsModulusValue="2.000000000000e+05" YoungsModulusUnits="MPa" YoungsModulusYValue="1.000000000000e+04" YoungsModulusYUnits="MPa" YoungsModulusZValue="1.000000000000e+04" YoungsModulusZUnits="MPa" PoissonsRatio="3.000000000000e-01" PoissonsRatioY="4.000000000000e-01" PoissonsRatioZ="4.000000000000e-01" ShearModulusXYValue="5.000000000000e+03" ShearModulusXYUnits="MPa" ShearModulusXZValue="5.000000000000e+03" ShearModulusXZUnits="MPa" ShearModulusYZValue="5.000000000000e+03" ShearModulusYZUnits="MPa" AlphaXValue="-2.000000000000e-07" AlphaXUnits="/K" AlphaYValue="3.000000000000e-06" AlphaYUnits="/K" AlphaZValue="3.000000000000e-06" AlphaZUnits="/K" GeometryScale="mm" MatrixYoungsModulusValue="3.000000000000e+03" MatrixYoungsModulusUnits="MPa" MatrixPoissonsRatio="2.000000000000e-01" MatrixAlpha="6.500000000000e-06" type="CTextile" NeedsBuilding="0">
+        <Domain type="CDomainPlanes">
+            <Plane Normal="1.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" d="0.000000000000e+00" />
+            <Plane Normal="-1.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" d="-1.000000000000e+01" />
+            <Plane Normal="0.000000000000e+00, 1.000000000000e+00, 0.000000000000e+00" d="0.000000000000e+00" />
+            <Plane Normal="0.000000000000e+00, -1.000000000000e+00, 0.000000000000e+00" d="-1.000000000000e+01" />
+            <Plane Normal="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" d="-1.000000000000e+00" />
+            <Plane Normal="0.000000000000e+00, 0.000000000000e+00, -1.000000000000e+00" d="-3.000000000000e+00" />
+        </Domain>
+        <Yarn index="0" YoungsModulusValue="2.000000000000e+05" YoungsModulusUnits="MPa" YoungsModulusYValue="1.000000000000e+04" YoungsModulusYUnits="MPa" YoungsModulusZValue="1.000000000000e+04" YoungsModulusZUnits="MPa" PoissonsRatio="3.000000000000e-01" PoissonsRatioY="4.000000000000e-01" PoissonsRatioZ="4.000000000000e-01" ShearModulusXYValue="5.000000000000e+03" ShearModulusXYUnits="MPa" ShearModulusXZValue="5.000000000000e+03" ShearModulusXZUnits="MPa" ShearModulusYZValue="5.000000000000e+03" ShearModulusYZUnits="MPa" AlphaXValue="-2.000000000000e-07" AlphaXUnits="/K" AlphaYValue="3.000000000000e-06" AlphaYUnits="/K" AlphaZValue="3.000000000000e-06" AlphaZUnits="/K" NumSlaveNodes="20" NumSectionPoints="40" NeedsBuilding="7">
+            <Interpolation Periodic="1" ForceInPlaneTangent="0" ForceMasterNodeTangent="0" type="CInterpolationBezier" />
+            <YarnSection type="CYarnSectionConstant" ConstMesh="1">
+                <Section type="CSectionLenticular" Width="4.000000000000e+00" Height="2.000000000000e+00" Distortion="0.000000000000e+00">
+                    <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                </Section>
+            </YarnSection>
+            <FibreDistribution type="CFibreDistributionConst" />
+            <Repeat value="1.000000000000e+01, 0.000000000000e+00, 0.000000000000e+00" />
+            <Repeat value="0.000000000000e+00, 1.000000000000e+01, 0.000000000000e+00" />
+            <MasterNode index="0" Position="0.000000000000e+00, 0.000000000000e+00, 2.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="1" Position="5.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="2" Position="1.000000000000e+01, 0.000000000000e+00, 2.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+        </Yarn>
+        <Yarn index="1" YoungsModulusValue="2.000000000000e+05" YoungsModulusUnits="MPa" YoungsModulusYValue="1.000000000000e+04" YoungsModulusYUnits="MPa" YoungsModulusZValue="1.000000000000e+04" YoungsModulusZUnits="MPa" PoissonsRatio="3.000000000000e-01" PoissonsRatioY="4.000000000000e-01" PoissonsRatioZ="4.000000000000e-01" ShearModulusXYValue="5.000000000000e+03" ShearModulusXYUnits="MPa" ShearModulusXZValue="5.000000000000e+03" ShearModulusXZUnits="MPa" ShearModulusYZValue="5.000000000000e+03" ShearModulusYZUnits="MPa" AlphaXValue="-2.000000000000e-07" AlphaXUnits="/K" AlphaYValue="3.000000000000e-06" AlphaYUnits="/K" AlphaZValue="3.000000000000e-06" AlphaZUnits="/K" NumSlaveNodes="20" NumSectionPoints="40" NeedsBuilding="7">
+            <Interpolation Periodic="1" ForceInPlaneTangent="0" ForceMasterNodeTangent="0" type="CInterpolationBezier" />
+            <YarnSection type="CYarnSectionInterpNode" ConstMesh="1" Ramped="1" Polar="0">
+                <NodeSection nodeindex="0">
+                    <Section type="CSectionLenticular" Width="4.000000000000e+00" Height="2.000000000000e+00" Distortion="0.000000000000e+00">
+                        <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                    </Section>
+                </NodeSection>
+                <NodeSection nodeindex="1">
+                    <Section type="CSectionHybrid">
+                        <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                        <Division Value="0.000000000000e+00" />
+                        <Division Value="5.000000000000e-01" />
+                        <Section type="CSectionLenticular" Width="4.000000000000e+00" Height="2.000000000000e+00" Distortion="0.000000000000e+00">
+                            <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                        </Section>
+                        <Section type="CSectionLenticular" Width="4.000000000000e+00" Height="1.800000000000e+00" Distortion="0.000000000000e+00">
+                            <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                        </Section>
+                    </Section>
+                </NodeSection>
+                <NodeSection nodeindex="2">
+                    <Section type="CSectionLenticular" Width="4.000000000000e+00" Height="2.000000000000e+00" Distortion="0.000000000000e+00">
+                        <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                    </Section>
+                </NodeSection>
+            </YarnSection>
+            <FibreDistribution type="CFibreDistributionConst" />
+            <Repeat value="1.000000000000e+01, 0.000000000000e+00, 0.000000000000e+00" />
+            <Repeat value="0.000000000000e+00, 1.000000000000e+01, 0.000000000000e+00" />
+            <MasterNode index="0" Position="0.000000000000e+00, 5.000000000000e+00, 0.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="1" Position="5.000000000000e+00, 5.000000000000e+00, 2.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="2" Position="1.000000000000e+01, 5.000000000000e+00, 0.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+        </Yarn>
+        <Yarn index="2" YoungsModulusValue="2.000000000000e+05" YoungsModulusUnits="MPa" YoungsModulusYValue="1.000000000000e+04" YoungsModulusYUnits="MPa" YoungsModulusZValue="1.000000000000e+04" YoungsModulusZUnits="MPa" PoissonsRatio="3.000000000000e-01" PoissonsRatioY="4.000000000000e-01" PoissonsRatioZ="4.000000000000e-01" ShearModulusXYValue="5.000000000000e+03" ShearModulusXYUnits="MPa" ShearModulusXZValue="5.000000000000e+03" ShearModulusXZUnits="MPa" ShearModulusYZValue="5.000000000000e+03" ShearModulusYZUnits="MPa" AlphaXValue="-2.000000000000e-07" AlphaXUnits="/K" AlphaYValue="3.000000000000e-06" AlphaYUnits="/K" AlphaZValue="3.000000000000e-06" AlphaZUnits="/K" NumSlaveNodes="20" NumSectionPoints="40" NeedsBuilding="7">
+            <Interpolation Periodic="1" ForceInPlaneTangent="0" ForceMasterNodeTangent="0" type="CInterpolationBezier" />
+            <YarnSection type="CYarnSectionConstant" ConstMesh="1">
+                <Section type="CSectionLenticular" Width="4.000000000000e+00" Height="2.000000000000e+00" Distortion="0.000000000000e+00">
+                    <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                </Section>
+            </YarnSection>
+            <FibreDistribution type="CFibreDistributionConst" />
+            <Repeat value="1.000000000000e+01, 0.000000000000e+00, 0.000000000000e+00" />
+            <Repeat value="0.000000000000e+00, 1.000000000000e+01, 0.000000000000e+00" />
+            <MasterNode index="0" Position="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="1" Position="0.000000000000e+00, 5.000000000000e+00, 2.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="2" Position="0.000000000000e+00, 1.000000000000e+01, 0.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+        </Yarn>
+        <Yarn index="3" YoungsModulusValue="2.000000000000e+05" YoungsModulusUnits="MPa" YoungsModulusYValue="1.000000000000e+04" YoungsModulusYUnits="MPa" YoungsModulusZValue="1.000000000000e+04" YoungsModulusZUnits="MPa" PoissonsRatio="3.000000000000e-01" PoissonsRatioY="4.000000000000e-01" PoissonsRatioZ="4.000000000000e-01" ShearModulusXYValue="5.000000000000e+03" ShearModulusXYUnits="MPa" ShearModulusXZValue="5.000000000000e+03" ShearModulusXZUnits="MPa" ShearModulusYZValue="5.000000000000e+03" ShearModulusYZUnits="MPa" AlphaXValue="-2.000000000000e-07" AlphaXUnits="/K" AlphaYValue="3.000000000000e-06" AlphaYUnits="/K" AlphaZValue="3.000000000000e-06" AlphaZUnits="/K" NumSlaveNodes="20" NumSectionPoints="40" NeedsBuilding="7">
+            <Interpolation Periodic="1" ForceInPlaneTangent="0" ForceMasterNodeTangent="0" type="CInterpolationBezier" />
+            <YarnSection type="CYarnSectionConstant" ConstMesh="1">
+                <Section type="CSectionLenticular" Width="4.000000000000e+00" Height="2.000000000000e+00" Distortion="0.000000000000e+00">
+                    <SectionMesh type="CSectionMeshRectangular" NumLayers="-1" TriangleCorners="1" />
+                </Section>
+            </YarnSection>
+            <FibreDistribution type="CFibreDistributionConst" />
+            <Repeat value="1.000000000000e+01, 0.000000000000e+00, 0.000000000000e+00" />
+            <Repeat value="0.000000000000e+00, 1.000000000000e+01, 0.000000000000e+00" />
+            <MasterNode index="0" Position="5.000000000000e+00, 0.000000000000e+00, 2.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="1" Position="5.000000000000e+00, 5.000000000000e+00, 0.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+            <MasterNode index="2" Position="5.000000000000e+00, 1.000000000000e+01, 2.000000000000e+00" Tangent="0.000000000000e+00, 0.000000000000e+00, 0.000000000000e+00" Up="0.000000000000e+00, 0.000000000000e+00, 1.000000000000e+00" Angle="0.000000000000e+00" />
+        </Yarn>
+    </Textile>
+</TexGenModel>
